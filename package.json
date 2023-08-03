@@ -1,0 +1,17 @@
+{
+  "name": "crosssiteconnector",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaynaatfatima/crosssiteconnector.git"
+  },
+  "author": "Kaynaat Fatima <kaynaat.fatimah@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rimraf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  }
+}
