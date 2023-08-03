@@ -1,4 +1,4 @@
-export function openModal(apiKey: string) {
+export function openPaymentGatewayModal(apiKey: string) {
   // Send the API key to paymentGatewayWebsite
   const paymentGatewayWebUrl = `http://127.0.0.1:5173/`;
   const paymentGatewayWebURL_key = `${paymentGatewayWebUrl}payment?key=${apiKey}`;

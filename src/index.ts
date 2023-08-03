@@ -1,1 +1,1 @@
-export {openModal} from "./modal"
+export {openPaymentGatewayModal} from "./modal"
